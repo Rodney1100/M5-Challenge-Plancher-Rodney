@@ -3,8 +3,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/starter/gamestore/pom.xml" />
         <option value="$PROJECT_DIR$/starter/gamestore/game-store-service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/gamestore-catalog/pom.xml" />
+        <option value="$PROJECT_DIR$/gamestore-invoicing/pom.xml" />
+        <option value="$PROJECT_DIR$/registry/pom.xml" />
       </list>
     </option>
   </component>

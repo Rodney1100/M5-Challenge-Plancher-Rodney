@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/M5-Challenge-Plancher-Rodney.iml" filepath="$PROJECT_DIR$/.idea/M5-Challenge-Plancher-Rodney.iml" />
-      <module fileurl="file://$PROJECT_DIR$/starter/gamestore/game-store-service-registry/game-store-service-registry.iml" filepath="$PROJECT_DIR$/starter/gamestore/game-store-service-registry/game-store-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry/game-store-service-registry.iml" filepath="$PROJECT_DIR$/registry/game-store-service-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter/gamestore/gamestore.iml" filepath="$PROJECT_DIR$/starter/gamestore/gamestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gamestore-catalog/gamestore-catalog.iml" filepath="$PROJECT_DIR$/gamestore-catalog/gamestore-catalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gamestore-invoicing/gamestore-invoicing.iml" filepath="$PROJECT_DIR$/gamestore-invoicing/gamestore-invoicing.iml" />
     </modules>
   </component>
 </project>
