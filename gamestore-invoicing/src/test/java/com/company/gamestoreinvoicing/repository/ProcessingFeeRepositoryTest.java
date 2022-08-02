@@ -1,4 +1,4 @@
-package com.trilogyed.gamestore.repository;
+package com.company.gamestoreinvoicing.repository;
 
 import com.trilogyed.gamestore.model.ProcessingFee;
 import org.junit.Test;

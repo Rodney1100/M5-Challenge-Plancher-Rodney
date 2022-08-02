@@ -1,4 +1,4 @@
-package com.trilogyed.gamestore.repository;
+package com.company.gamestorecatalog.repository;
 
 import com.trilogyed.gamestore.model.Console;
 import org.junit.Test;

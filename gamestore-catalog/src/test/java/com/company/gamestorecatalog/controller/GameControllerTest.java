@@ -1,4 +1,4 @@
-package com.trilogyed.gamestore.controller;
+package com.company.gamestorecatalog.controller;
 
 import com.trilogyed.gamestore.service.GameStoreServiceLayer;
 import com.trilogyed.gamestore.viewModel.GameViewModel;

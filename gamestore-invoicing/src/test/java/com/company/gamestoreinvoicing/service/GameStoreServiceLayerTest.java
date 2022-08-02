@@ -1,4 +1,4 @@
-package com.trilogyed.gamestore.service;
+package com.company.gamestoreinvoicing.service;
 
 import com.trilogyed.gamestore.repository.*;
 import com.trilogyed.gamestore.model.*;

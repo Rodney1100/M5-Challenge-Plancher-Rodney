@@ -87,18 +87,18 @@ public class GameStoreServiceLayer {
         this.quantity = quantity;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        TShirtViewModel that = (TShirtViewModel) o;
-        return getId() == that.getId() &&
-                getQuantity() == that.getQuantity() &&
-                Objects.equals(getSize(), that.getSize()) &&
-                Objects.equals(getColor(), that.getColor()) &&
-                Objects.equals(getDescription(), that.getDescription()) &&
-                Objects.equals(getPrice(), that.getPrice());
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        TShirtViewModel that = (TShirtViewModel) o;
+//        return getId() == that.getId() &&
+//                getQuantity() == that.getQuantity() &&
+//                Objects.equals(getSize(), that.getSize()) &&
+//                Objects.equals(getColor(), that.getColor()) &&
+//                Objects.equals(getDescription(), that.getDescription()) &&
+//                Objects.equals(getPrice(), that.getPrice());
+//    }
 
     @Override
     public int hashCode() {
@@ -112,14 +112,16 @@ public class GameStoreServiceLayer {
         return ivmList;
     }
 
-    public List<InvoiceViewModel> getAllInvoices() {
+    public List<Invoice> getAllInvoices() {
         List<Invoice> listInvoice = invoiceRepo.findAll();
         return listInvoice;
     }
 
     public InvoiceViewModel getInvoice(long invoiceId) {
+        return null;
     }
 
     public InvoiceViewModel createInvoice(InvoiceViewModel invoiceViewModel) {
+        return invoiceViewModel;
     }
 }
