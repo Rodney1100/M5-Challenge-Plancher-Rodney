@@ -1,4 +1,4 @@
-package com.trilogyed.gamestore.service;
+package com.company.gamestoreinvoicing.service;
 
 import com.company.gamestoreinvoicing.model.Console;
 import com.company.gamestoreinvoicing.model.Invoice;

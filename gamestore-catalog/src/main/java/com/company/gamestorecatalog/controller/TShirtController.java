@@ -29,11 +29,11 @@ public class TShirtController {
     @ResponseStatus(HttpStatus.OK)
     public TShirtViewModel getTShirt(@PathVariable("id") int tShirtId) {
         TShirtViewModel tShirtViewModel = service.getTShirt(tShirtId);
-        if (tShirtViewModel == null) {
-            throw new IllegalArgumentException("T-Shirt could not be retrieved for id " + tShirtId);
-        } else {
+//        if (tShirtViewModel == null) {
+//            throw new IllegalArgumentException("T-Shirt could not be retrieved for id " + tShirtId);
+//        } else {
             return tShirtViewModel;
-        }
+//        }
     }
 
     @PutMapping
