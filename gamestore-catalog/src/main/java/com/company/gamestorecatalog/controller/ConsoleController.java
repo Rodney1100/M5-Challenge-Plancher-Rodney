@@ -15,7 +15,7 @@ public class ConsoleController {
     @Autowired
     GameStoreServiceLayer service;
 
-    @PostMapping
+    @GetMapping
     @ResponseStatus(HttpStatus.CREATED)
     public ConsoleViewModel createConsole(@RequestBody @Valid ConsoleViewModel consoleViewModel) {
         consoleViewModel = service.createConsole(consoleViewModel);
